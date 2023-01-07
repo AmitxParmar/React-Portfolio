@@ -1,6 +1,7 @@
 import './Header.css';
 
 import React from 'react';
+import { FaGreaterThan } from 'react-icons/fa';
 
 import ME from '../../assets/me.png';
 import CTA from './CTA';
@@ -18,7 +19,8 @@ const Header = () => {
                 <div className='me'>
                     <img src={ME} alt="author's img" />
                 </div>
-                <a href="#contact" className='scroll__down'>Scroll Down</a>
+                <a href="#contact" className='scroll__down'>Scroll Down <FaGreaterThan /> </a>
+
             </div>
         </header>
     );

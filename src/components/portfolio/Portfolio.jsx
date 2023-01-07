@@ -33,13 +33,13 @@ const Portfolio = () => {
 
             <div className='container portfolio__container'>
                 {data.map(({ id, image, title, github }) => (<>
-                    <article key={id} className='portfolio__item'>
+                    <article key={id} className='portfolio__items'>
                         <div className='portfolio__item-image'>
                             <img src={image} alt={title} />
                         </div>
                         <h3>{title}</h3>
                         <div className='portfolio__item-cta'>
-                            <a className="btn" href={github} target="_blank">Github</a>
+                            <a className="btn" href={github} target="_blank" rel="noreferrer">Github</a>
                         </div>
                     </article>
                 </>))}
