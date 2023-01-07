@@ -21,14 +21,14 @@ const About = () => {
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>
-                            {/* ============== Experience and award icons ========================= */}
+                            {/* ===================================== Experience and Award Icons ========================= */}
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
                             <small>
                                 Web Development since June 2022
                             </small>
                         </article>
-                        {/* ======================== Experience #2: Clients ================================= */}
+                        {/* ==================================== Experience #2: Clients ================================= */}
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
@@ -36,7 +36,7 @@ const About = () => {
                                 0+ currently no experience with the Clients
                             </small>
                         </article>
-                        {/* ======================================================================= */}
+                        {/* ============================================== [AmitxParmar] ======================================== */}
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
@@ -47,7 +47,7 @@ const About = () => {
                                 Movie Search App
                             </small>
                         </article>
-                        {/* ============================================================ */}
+                        {/* ============================================= x ========================================= */}
                     </div>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur non, alias mollitia deleniti cumque, vel veritatis dolores tempora molestias, sint ad nisi aliquid debitis optio dolorum cum ratione dolorem?

@@ -68,6 +68,8 @@
     color: var(--color-light);
 }
 
+
+
 /* Media query (Medium Devices)*/
 @media screen and (max-width:1024px) {
     .about__container {

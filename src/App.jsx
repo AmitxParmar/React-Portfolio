@@ -6,7 +6,7 @@ import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
-import Services from './components/services/Services';
+import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 
 const App = () => {
@@ -16,7 +16,8 @@ const App = () => {
             <Nav />
             <About />
             <Experience />
-            <Services />
+            {/* I might add this later <Services /> */}
+            <Portfolio />
             <Testimonials />
             <Contact />
             <Footer />
