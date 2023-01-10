@@ -1,0 +1,16 @@
+.container__circles {
+    display: flex;
+    flex: center;
+}
+
+.circle {
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.small200 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}

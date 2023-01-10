@@ -18,6 +18,7 @@ const About = () => {
                         <img src={ME} alt='author profile pic' />
                     </div>
                 </div>
+
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>

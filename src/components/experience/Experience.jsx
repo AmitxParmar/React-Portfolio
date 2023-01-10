@@ -35,21 +35,34 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className='experience__backend'>
-                    <article className="experience__details">
-                        <BsPatchCheckFill />
-                        <h4> Firebase </h4>
-                        <small className='text-light'> Intermediate </small>
-                    </article>
-                    <article className="experience__details">
-                        <BsPatchCheckFill />
-                        <h4> MySQL </h4>
-                        <small className='text-light'> Basics </small>
-                    </article>
-                    <article className="experience__details">
-                        <BsPatchCheckFill />
-                        <h4> MongoDB </h4>
-                        <small className='text-light'> Basics </small>
-                    </article>
+                    <h3> Back End Development </h3>
+                    <div className='experience__content'>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> Firebase </h4>
+                            <small className='text-light'> Intermediate </small>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> Node.js </h4>
+                            <small className='text-light'> Basics </small>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> Express.js </h4>
+                            <small className='text-light'> Basics </small>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> MySQL </h4>
+                            <small className='text-light'> Basics </small>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> MongoDB </h4>
+                            <small className='text-light'> Basics </small>
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
