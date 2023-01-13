@@ -1,5 +1,6 @@
 import './About.css';
 
+import { motion } from 'framer-motion';
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
@@ -20,7 +21,15 @@ const About = () => {
                 </div>
 
                 <div className='about__content'>
-                    <div className='about__cards'>
+                    <motion.div
+                        initial={{
+                            y: -100,
+                            opacity: 0,
+                        }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className='about__cards'>
                         <article className='about__card'>
                             {/* ===================================== Experience and Award Icons ========================= */}
                             <FaAward className='about__icon' />
@@ -49,7 +58,7 @@ const About = () => {
                             </small>
                         </article>
                         {/* ============================================= x ========================================= */}
-                    </div>
+                    </motion.div>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur non, alias mollitia deleniti cumque, vel veritatis dolores tempora molestias, sint ad nisi aliquid debitis optio dolorum cum ratione dolorem?
                     </p>

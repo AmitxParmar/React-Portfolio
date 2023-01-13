@@ -10,18 +10,36 @@ import Portfolio from './components/portfolio/Portfolio';
 
 const App = () => {
     return (
-        <>
-            <Header />
-            <Nav />
-            <About />
-            <Experience />
-            <Portfolio />
+        <div className='pages'>
+            <section>
+                <Header />
+            </section>
+            <section>
+                <Nav />
+            </section>
+            <section>
+                <About />
+            </section>
+            <section>
+                <Experience />
+            </section>
+            <section>
+                <Portfolio />
+            </section>
+            <section>
+                <Contact />
+            </section>
+            <section>
+                <Footer />
+            </section>
+            {/* NOTE: What's I'm trying to achieve is snap page type scroll but the sections wont let me cus components also uses sections tag */}
+
             {/* I might add this later <Services /> 
             <Testimonials />
             */}
-            <Contact />
-            <Footer />
-        </>
+
+
+        </div>
     );
 };
 
