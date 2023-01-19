@@ -1,6 +1,9 @@
-# Project Preview:
-
+## Project Preview:
+### > Header 
 <img src="https://github.com/AmitxParmar/React-Portfolio/blob/03f0a79288c48c5fd653b68d5694a175e89d27f6/Screenshot_20230119_042859.png"/>
+
+### > Footer
+<img src='https://github.com/AmitxParmar/React-Portfolio/blob/0c2dcb8df7edc8dab8422c6ad83a9265b90470e9/Footer.png' />
 
 # Getting Started with Create React App
 
