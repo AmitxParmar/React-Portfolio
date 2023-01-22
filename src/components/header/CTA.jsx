@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/AmitxParmar@github.pdf';
 
 const CTA = () => {
     return (
@@ -12,3 +12,16 @@ const CTA = () => {
 };
 
 export default CTA;
+
+/* `amitparmar901@gmail.com`
+amitparmar901@gmail.com -> amitparmar901@gmail.com -> 9104999193 -> Hello world! -> amitparmar901@gmail.com -> amitparmar -> amitparmar -> amitparmar -> amitparmar -> amitparmar -> amitparmar -> amitparmar -> amitparmar
+
+*/
+
+
+
+
+
+
+
+

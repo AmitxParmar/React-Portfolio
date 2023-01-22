@@ -54,7 +54,7 @@ const About = () => {
                                 Instagram Clone
                             </small>
                             <small>
-                                Movie Search App
+
                             </small>
                         </article>
                         {/* ============================================= x ========================================= */}

@@ -1,11 +1,14 @@
 .container__circles {
     display: flex;
     flex: center;
+    justify-content: center;
+    position: relative;
 }
 
 .circle {
     border: solid 1px black;
     border-radius: 50%;
+    position: absolute;
 }
 
 .small200 {

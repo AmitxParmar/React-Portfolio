@@ -10,9 +10,11 @@ header {
 }
 
 /* ======================================== TypeWriter ========================================= */
-.type__primary {
+.type__writer {
     color: var(--color-primary);
+    font-size: 3rem;
     height: 5rem;
+    margin-bottom: 2rem;
 }
 
 /* ======================================== CTA ========================================= */
@@ -33,12 +35,20 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
+    border: var(--color-bg-variant) solid;
     bottom: 3rem;
 }
 
 .header__socials::after {
     content: "";
-    width: 1px;
+    width: 2rem;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.header__socials::before {
+    content: "";
+    width: 2rem;
     height: 2rem;
     background: var(--color-primary);
 }
@@ -66,12 +76,11 @@ header {
     font-size: 0.9rem;
 }
 
-/* ===========================Media query (Medium Devices)==========================*/
+/* =========================== Media query (Medium Devices) ========================== */
 @media screen and (max-width:1024px) {
     header {
         height: 68vh;
     }
-
 }
 
 /* Media query (Medium Devices)*/
