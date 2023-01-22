@@ -10,29 +10,22 @@ const data = [
         image: instaClone,
         title: "Instagram Clone",
         github: "https://github.com/AmitxParmar/Instagram-Clone/",
-        description: " Instagram: This was the Major project I've ever built This application (Instagram clone) was built using
-React(Custom Hooks, Context), Firebase & Tailwind CSS, where I've built pages Like: Login, SignUp,
-Dashboard, UserProle.Where I've learned how to create Schema, Conditional rendering, Routing,
-Prop Drilling, Custom hooks, and TailwindCSS.
- Features: Comment, Like, Login, Logout, Create account, user posts, prole.
- My Job was to handle data ow using Context, handle rebase queries, create context, add dark theme,
-    add sidebar, add update bio features.
-"
+        description: "This was the Major project I've ever built This application (Instagram clone) was built using React(Custom Hooks, Context), Firebase and Tailwind CSS, where I've built pages Like: Login, SignUp, Dashboard, UserProfile.Where I've learned how to create,Conditional rendering, Routing, Prop Drilling, Custom hooks, and TailwindCSS.Features: Comment, Like, Login, Logout, Create account, user posts, profile.My Job was to handle data ow using Context, handle firebase queries, create context, add dark theme, add sidebar, add update bio features.",
     },
-{
-    id: 2,
+    {
+        id: 2,
         image: MERNTodo,
-            title: "Full-Stack Todo App (MERN)",
-                github: "https://github.com/AmitxParmar/MERN-TODO-APP",
-                    description: ""
-},
-{
-    id: 3,
+        title: "Full-Stack Todo App (MERN)",
+        github: "https://github.com/AmitxParmar/MERN-TODO-APP",
+        description: ""
+    },
+    {
+        id: 3,
         image: youTubeClone,
-            title: "YouTube Clone",
-                github: "https://github.com/AmitxParmar/Youtube-Clone",
-                    description: ""
-},
+        title: "YouTube Clone",
+        github: "https://github.com/AmitxParmar/Youtube-Clone",
+        description: ""
+    },
 ];
 
 const Portfolio = () => {
