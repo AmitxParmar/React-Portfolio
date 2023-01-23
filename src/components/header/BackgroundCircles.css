@@ -1,19 +1,66 @@
 .container__circles {
     display: flex;
     flex: center;
+    justify-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
 }
 
 .circle {
-    border: solid 1px black;
+    border: solid 1px var(--color-primary);
     border-radius: 50%;
+    float: center;
     position: absolute;
+    margin-top: 13rem;
+    justify-content: center;
 }
 
-.small200 {
+.circle__200 {
     height: 200px;
     width: 200px;
+    background-color: linear-gradient(var(--color-primary), transparent);
+    justify-content: center;
     display: flex;
+    align-items: center;
+}
+
+.circle__300 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__500 {
+    position: absolute;
+    background-color: linear-gradient(var(--color-primary), transparent);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__650 {
+    height: 650px;
+    width: 650px;
+    display: flex;
+    flex: center;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.circle__800 {
+    height: 800px;
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    flex: center;
     align-items: center;
 }

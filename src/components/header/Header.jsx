@@ -15,26 +15,16 @@ const Header = () => {
         <header>
             <motion.div
                 className='container header__container'>
-                <BackgroundCircles />
+                <HeaderSocials />
                 <TypeWriter />
                 <h5 className='text-light'>Full Stack Developer</h5>
                 <CTA />
-                <HeaderSocials />
-                <div
-
-                    className='me'>
-                    <motion.img
-                        initial={{ opacity: 0 }}
-                        animate={{
-                            scale: [1, 2, 2, 3, 1],
-                            opacity: [0.1, 0.2, 0.4, 0.8, 0.1, 1.0],
-                            borderRadius: ["20%", "20%", "50%", "80%", "20%"],
-                        }}
-                        transition={{ duration: 2.5 }}
-                        src={ME} alt="author's img" />
+                <BackgroundCircles />
+                <div className='me'>
+                    <img src={ME} alt="author's img" />
                 </div>
                 <a href="#contact" className='scroll__down'>
-                    Scroll Down
+                    Scroll_Down
                     <FaGreaterThan />
                 </a>
             </motion.div>

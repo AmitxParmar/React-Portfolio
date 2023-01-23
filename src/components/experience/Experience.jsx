@@ -19,7 +19,7 @@ const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <BsPatchCheckFill />
-                            <h4> CSS3s </h4>
+                            <h4> CSS3 </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
@@ -29,7 +29,12 @@ const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <BsPatchCheckFill />
-                            <h4> React / NextJS </h4>
+                            <h4> ReactJS </h4>
+                            <small className='text-light'> Intermediate </small>
+                        </article>
+                        <article className="experience__details">
+                            <BsPatchCheckFill />
+                            <h4> NextJS </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">

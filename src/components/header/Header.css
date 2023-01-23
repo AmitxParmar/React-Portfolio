@@ -1,6 +1,11 @@
 header {
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header__container {
@@ -18,7 +23,6 @@ header {
 }
 
 /* ======================================== CTA ========================================= */
-
 .cta {
     margin-top: 2.5rem;
     display: flex;
@@ -72,8 +76,8 @@ header {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 /* =========================== Media query (Medium Devices) ========================== */

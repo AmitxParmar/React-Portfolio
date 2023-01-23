@@ -12,12 +12,13 @@ const BackgroundCircles = () => {
                 borderRadius: ["20%", "20%", "50%", "80%", "20%"],
             }}
             transition={{ duration: 2.5 }}
-            className='container__circles'>
-            <div className='circle small200'></div>
-            {/*  <div className='circle small300'></div>
-            <div className='circle medium500'></div>
-            <div className='circle medium650'></div>
-            <div className='circle big800'></div> */}
+            className='container__circles'
+        >
+            <div className='circle circle__200' />
+            <div className='circle circle__300' />
+            <div className='circle circle__500' />
+            <div className='circle circle__650' />
+            <div className='circle circle__800' />
         </motion.div>
     );
 };
