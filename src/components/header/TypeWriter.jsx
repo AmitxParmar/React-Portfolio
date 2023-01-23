@@ -7,8 +7,8 @@ const TypeWriter = () => {
     const [text] = useTypewriter(
         {
             words: [
-                "Hi!, The Name's Amit Parmar",
-                "Guy-who-loves-exploring-computers.tsx",
+                "Hi!,The Name's Amit Parmar",
+                "Scroll Down for More",
                 "<ButLovesToCodeMore />",
             ],
             loop: true,

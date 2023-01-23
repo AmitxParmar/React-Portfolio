@@ -4,7 +4,6 @@
     justify-items: center;
     justify-content: center;
     position: absolute;
-    height: 100%;
     width: 100%;
     justify-items: center;
 }
@@ -63,4 +62,11 @@
     display: flex;
     flex: center;
     align-items: center;
+}
+
+/* Media query (Medium Devices)*/
+@media screen and (max-width:600px) {
+    .container__circles {
+        max-height: 100%;
+    }
 }
