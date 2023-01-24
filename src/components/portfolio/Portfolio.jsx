@@ -3,6 +3,7 @@ import './Portfolio.css';
 import instaClone from '../../assets/InstaClone.jpg';
 import MERNTodo from '../../assets/TodoMERN.png';
 import youTubeClone from '../../assets/Youtube_Clone_Home.png';
+import { motion } from 'framer-motion'
 
 const data = [
     {
@@ -28,7 +29,7 @@ const data = [
     },
 ];
 
-const Portfolio = ({ children }) => {
+const Portfolio = ({ directionLeft }) => {
     return (
         <section id='portfolio'>
             <h5>My Recent Work</h5>
@@ -36,7 +37,12 @@ const Portfolio = ({ children }) => {
 
             <div className='container portfolio__container'>
                 {data.map(({ id, image, title, github, description }) => (<>
-                    <article key={github} className='portfolio__items'>
+                    <motion.article key={github} className='portfolio__items'
+                        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: true }}
+                    >
                         <div className='portfolio__item-image'>
                             <img src={image} alt={title} />
                         </div>
@@ -47,7 +53,7 @@ const Portfolio = ({ children }) => {
                                 Github
                             </a>
                         </div>
-                    </article>
+                    </motion.article>
                 </>))}
             </div>
         </section>
