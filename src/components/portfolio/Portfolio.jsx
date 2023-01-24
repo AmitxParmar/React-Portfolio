@@ -38,10 +38,10 @@ const Portfolio = ({ directionLeft }) => {
             <div className='container portfolio__container'>
                 {data.map(({ id, image, title, github, description }) => (<>
                     <motion.article key={github} className='portfolio__items'
-                        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-                        whileInView={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 1 }}
-                        viewport={{ once: false }}
+                        initial={{ y: -300, opacity: 0 }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
                     >
                         <div className='portfolio__item-image'>
                             <img src={image} alt={title} />

@@ -17,10 +17,7 @@ const About = () => {
                 <div className='about__me'>
                     <div className='about__me-image'>
                         <motion.img
-                            initial={{ y: -300, opacity: 0 }}
-                            transition={{ duration: 1.2 }}
-                            whileInView={{ y: 0, opacity: 1 }}
-                            viewport={{ once: true }}
+
                             src={ME} alt='author profile pic' />
                     </div>
                 </div>

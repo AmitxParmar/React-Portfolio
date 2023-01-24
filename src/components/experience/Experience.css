@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    scroll-snap-align: center;
 }
 
 .experience__container>div {
