@@ -41,7 +41,7 @@ const Portfolio = ({ directionLeft }) => {
                         initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: false }}
                     >
                         <div className='portfolio__item-image'>
                             <img src={image} alt={title} />

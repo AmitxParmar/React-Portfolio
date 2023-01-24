@@ -1,5 +1,5 @@
 import './Contact.css';
-
+import { motion } from 'framer-motion'
 import React from 'react';
 import { BsWhatsapp } from 'react-icons/bs';
 import { MdOutlineEmail } from 'react-icons/md';
@@ -11,25 +11,38 @@ const Contact = () => {
             <h2>Contact Me</h2>
 
             <div className='container contact__container'>
-                <div className='contact__options'>
-                    <article className='contact__option'>
+                <div className='contact__options'
+
+                >
+                    <motion.article className='contact__option'
+                        initial={{ y: -300, opacity: 0 }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: true }}
+                    >
                         <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>amitparmar901@gmail.com</h5>
                         <a href='mailto:amitparmar901@gmail.com'> Send a message </a>
-                    </article>
+                    </motion.article>
                     {/* <article className='contact__option'>
                         <MdOutlineEmail />
                         <h4>Whatsapp</h4>
                         <h5>amitparmar901@gmail.com</h5>
                         <a href='mailto:amitparmar901@gmail.com'> Send a message </a>
                     </article> */}
-                    <article className='contact__option'>
+                    <motion.article
+                        className='contact__option'
+                        initial={{ y: -300, opacity: 0 }}
+                        transition={{ duration: 1.2 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        viewport={{ once: false }}
+                    >
                         <BsWhatsapp />
                         <h4>Whatsapp</h4>
                         <h5>+9191919191919</h5>
                         <a href='https://api.whatsapp.com/send?phone=+9191919191919'> Send a message </a>
-                    </article>
+                    </motion.article>
                 </div>
                 {/* END OF CONTACT OPTIONS */}
                 <form action=''>

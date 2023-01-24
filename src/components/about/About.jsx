@@ -16,7 +16,12 @@ const About = () => {
             <div className='container about__container'>
                 <div className='about__me'>
                     <div className='about__me-image'>
-                        <img src={ME} alt='author profile pic' />
+                        <motion.img
+                            initial={{ y: -300, opacity: 0 }}
+                            transition={{ duration: 1.2 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            viewport={{ once: true }}
+                            src={ME} alt='author profile pic' />
                     </div>
                 </div>
 
@@ -28,7 +33,7 @@ const About = () => {
                         }}
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: false }}
                         className='about__cards'>
                         <article className='about__card'>
                             {/* ===================================== Experience and Award Icons ========================= */}

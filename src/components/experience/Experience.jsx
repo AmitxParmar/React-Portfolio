@@ -1,5 +1,5 @@
 import './Experience.css';
-
+import { motion } from 'framer-motion'
 import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
@@ -9,7 +9,22 @@ const Experience = () => {
             <h2>My Experience</h2>
 
             <div className='container experience__container'>
-                <div className='experience__frontend'>
+                <motion.div
+                    initial={{
+                        x: -500,
+                        opacity: 0,
+                        scale: 0.5,
+                    }}
+                    viewport={{ once: false }}
+                    animate={{
+                        x: 0,
+                        opacity: 1,
+                        scale: 1,
+                    }}
+                    transition={{
+                        duration: 0.5,
+                    }}
+                    className='experience__frontend'>
                     <h3> Front Development </h3>
                     <div className='experience__content'>
                         <article className="experience__details">
@@ -43,8 +58,24 @@ const Experience = () => {
                             <small className='text-light'> Intermediate </small>
                         </article>
                     </div>
-                </div>
-                <div className='experience__backend'>
+                </motion.div>
+
+                <motion.div
+                    initial={{
+                        x: 500,
+                        opacity: 0,
+                        scale: 0.5,
+                    }}
+                    animate={{
+                        x: 0,
+                        opacity: 1,
+                        scale: 1,
+                    }}
+                    viewport={{ once: false }}
+                    transition={{
+                        duration: 0.5,
+                    }}
+                    className='experience__backend'>
                     <h3> Back End Development </h3>
                     <div className='experience__content'>
                         <article className="experience__details">
@@ -73,9 +104,9 @@ const Experience = () => {
                             <small className='text-light'> Basics </small>
                         </article>
                     </div>
-                </div>
+                </motion.div>
             </div>
-        </section>
+        </section >
     );
 };
 
