@@ -21,16 +21,11 @@ const Contact = () => {
                         viewport={{ once: true }}
                     >
                         <MdOutlineEmail className='contact__option-icon' />
-                        <h4>Email</h4>
-                        <h5>amitparmar901@gmail.com</h5>
+                        <h4> Email </h4>
+                        <h5> amitparmar901@gmail.com </h5>
                         <a href='mailto:amitparmar901@gmail.com'> Send a message </a>
                     </motion.article>
-                    {/* <article className='contact__option'>
-                        <MdOutlineEmail />
-                        <h4>Whatsapp</h4>
-                        <h5>amitparmar901@gmail.com</h5>
-                        <a href='mailto:amitparmar901@gmail.com'> Send a message </a>
-                    </article> */}
+
                     <motion.article
                         className='contact__option'
                         initial={{ y: -300, opacity: 0 }}

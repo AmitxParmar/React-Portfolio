@@ -38,6 +38,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
+    overflow-y: scroll;
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
