@@ -19,6 +19,7 @@ header {
     color: var(--color-primary);
     font-size: 3rem;
     height: 5rem;
+    font-weight: 900;
     margin-bottom: 2rem;
 }
 

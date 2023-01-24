@@ -7,7 +7,7 @@ const TypeWriter = () => {
     const [text] = useTypewriter(
         {
             words: [
-                "Hi!,The Name's Amit Parmar",
+                "Hi!, The Name's Amit Parmar",
                 "Scroll Down for More",
                 "<ButLovesToCodeMore />",
             ],
@@ -18,8 +18,8 @@ const TypeWriter = () => {
 
     return (
         <div className='type__writer'>
-            <span >{text}</span>
-            <Cursor cursorColor="#F7AB0A" />
+            <span>{text}</span>
+            <Cursor cursorColor='#F7AB0A' />
         </div>
     );
 };
