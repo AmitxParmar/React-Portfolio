@@ -18,14 +18,17 @@ const data = [
         image: MERNTodo,
         title: "Full-Stack Todo App (MERN)",
         github: "https://github.com/AmitxParmar/MERN-TODO-APP",
-        description: "Built the App made using MERN stack. The back-end handles CRUD operations on the data sent from the Front- end which is built using CSS and React.Which has features like: Complete, Add, Delete,Update Todos.where I've learned how to create basic Database Schema and create API building this Project."
+        description: `Built the front-end using React and implemented features such as creating, editing, and deleting to-do items.
+        Utilized MongoDB for storing and retrieving user data and to-do items and Implemented a RESTful API using Express.js for communicating with the MongoDB database, Node.js for the server-side logic and handling API routes.`
     },
     {
         id: 3456,
         image: youTubeClone,
         title: "YouTube Clone",
         github: "https://github.com/AmitxParmar/Youtube-Clone",
-        description: "The clone gets video data like views, channel and videos from YouTube API. The UI is built using React and Material- UI.it has pages like Feed, Video Screen (Which uses React Player Library), Search Results, and Channel."
+        description: `
+        Developed a YouTube clone web application utilizing React and Material-UI for the front-end, and integrated the YouTube Data API to retrieve and display video information.
+        Implemented features such as a search bar, video player and channel details page. implemented responsive design for optimal user experience on all devices.`
     },
 ];
 
