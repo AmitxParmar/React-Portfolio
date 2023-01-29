@@ -11,7 +11,15 @@ const data = [
         image: instaClone,
         title: "Instagram Clone",
         github: "https://github.com/AmitxParmar/Instagram-Clone/",
-        description: "This was the Major project I've ever built This application (Instagram clone) was built using React(Custom Hooks, Context), Firebase and Tailwind CSS, where I've built pages Like: Login,SignUp, Dashboard, UserProfile. Where I've learned how to create,Conditional rendering, Routing, Prop Drilling, Custom hooks, and TailwindCSS.Features: Comment, Like, Login, Logout, Create account, user posts, profile. My Job was to handle data ow using Context, handle firebase queries, create context, add dark theme, add sidebar, add update bio features."
+        description: `
+        • I recently built a full stack Instagram clone using Firebase for the backend, React for the frontend,
+        and TailwindCSS for styling. The project includes a user authentication system, a feature for creating and viewing posts, and a system for liking and commenting on posts.
+        • I faced the challenge of integrating Firebase with React as I tried to use firebase V9, but was able to
+        successfully implement real-time data updates and user authentication. Through this project, I
+        gained experience in building full stack applications, working with Firebase, and implementing design with TailwindCSS.
+        • Managed global state using context API, handled Firebase queries, add dark theme, add sidebar,
+        add update bio feature.
+        `
     },
     {
         id: 2345,
