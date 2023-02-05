@@ -1,6 +1,8 @@
 import './Experience.css';
 import { motion } from 'framer-motion'
-import { BsPatchCheckFill } from 'react-icons/bs';
+import { FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa';
+import { SiTailwindcss, SiNextdotjs, SiJavascript, SiFirebase, SiNodedotjs, SiExpress, SiMysql, SiMongodb } from 'react-icons/si';
+import { useState } from 'react';
 
 const Experience = () => {
     return (
@@ -28,32 +30,32 @@ const Experience = () => {
                     <h3> Front Development </h3>
                     <div className='experience__content'>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <FaHtml5 />
                             <h4> HTML </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <FaCss3Alt />
                             <h4> CSS3 </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiJavascript />
                             <h4> JavaScript </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <FaReact />
                             <h4> ReactJS </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiNextdotjs />
                             <h4> NextJS </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiTailwindcss />
                             <h4> Tailwind </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
@@ -79,27 +81,27 @@ const Experience = () => {
                     <h3> Back End Development </h3>
                     <div className='experience__content'>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiFirebase />
                             <h4> Firebase </h4>
                             <small className='text-light'> Intermediate </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiNodedotjs />
                             <h4> Node.js </h4>
                             <small className='text-light'> Basics </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiExpress />
                             <h4> Express.js </h4>
                             <small className='text-light'> Basics </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiMysql />
                             <h4> MySQL </h4>
                             <small className='text-light'> Basics </small>
                         </article>
                         <article className="experience__details">
-                            <BsPatchCheckFill />
+                            <SiMongodb />
                             <h4> MongoDB </h4>
                             <small className='text-light'> Basics </small>
                         </article>

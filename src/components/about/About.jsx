@@ -16,9 +16,7 @@ const About = () => {
             <div className='container about__container'>
                 <div className='about__me'>
                     <div className='about__me-image'>
-                        <motion.img
-
-                            src={ME} alt='author profile pic' />
+                        <img src={ME} alt='author profile pic' />
                     </div>
                 </div>
 
@@ -37,7 +35,7 @@ const About = () => {
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
                             <small>
-                                Web Development since June 2022
+                                Been Learning Web Dev since past couple of Months
                             </small>
                         </article>
                         {/* ==================================== Experience #2: Clients ================================= */}
@@ -45,7 +43,7 @@ const About = () => {
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
                             <small>
-                                0+ currently no experience with the Clients
+                                0++
                             </small>
                         </article>
                         {/* ============================================== [AmitxParmar] ======================================== */}
@@ -53,7 +51,9 @@ const About = () => {
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
                             <small>
-                                Instagram Clone
+                                Instagram Clone,  \
+                                Todo App (MERN),    \
+                                YoutubeClone        \
                             </small>
                             <small>
 
