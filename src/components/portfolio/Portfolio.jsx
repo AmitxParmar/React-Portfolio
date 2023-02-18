@@ -9,7 +9,7 @@ const data = [
         id: 1234,
         image: instaClone,
         title: "Instagram Clone",
-        features: "realtime database update, like, comment, profile, feed, Login, LogOut",
+        features: "Realtime Database Update, like, comment, profile, feed, Login, LogOut",
         github: "https://github.com/AmitxParmar/Instagram-Clone/",
         description: `
         • The project includes a user authentication system, a feature for creating and viewing, liking and commenting on posts and follow/unfollow feature.
@@ -58,7 +58,6 @@ const Portfolio = ({ directionLeft }) => {
                 {data.map(({ id, image, title, github, description, features }) => (
                     <>
                         <article key={id} className='portfolio__items' >
-
                             <div className='portfolio__item-image'>
                                 <img src={image} alt={title} />
                             </div>
